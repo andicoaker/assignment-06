@@ -8,23 +8,25 @@
 
 .header {
   margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .logo-img {
   width: 50%;
   margin: 0 auto;
-  padding: 50px 0px 50px 0px;
+  padding-bottom: 25px;
 }
 
 .menu,
 .filter{
   text-align: center;
   margin: 0;
-  padding-bottom: 50px;
 }
 
 .filter{
   font-weight: 100;
+  padding-top: 25px;
 }
 
 /*MAIN-COLUMN-Container*/
@@ -51,4 +53,47 @@
        width: 100%;
        display: block;
        vertical-align: top;
+    }
+
+/*FOOTER*/
+
+.footer{
+  vertical-align: top;
+}
+
+  .chevron-up{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .chevron-up i{
+    color: #c9c4c4;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 3px;
+  }
+
+  .search-bar{
+    border: solid #d5d2d2 3px;
+    border-radius: 3px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+    .search-bar p {
+      margin-top: 0px;
+      margin-bottom: 0px;
+
+    }
+    .search-bar input{
+      font-size: 20px;
+      width: 85%;
+    }
+    .search-bar i {
+      color: #d5d2d2;
+      width: 15%;
+      padding-left: 7px;
     }
